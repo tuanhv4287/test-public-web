@@ -1,0 +1,2 @@
+import './polyfills.server.mjs';
+import{a as r,b as p,c as i,d as n,e as m,j as a,m as f,o as s,p as c,q as l,t as d,z as u}from"./chunk-HQZAEY64.mjs";var o=class e{title="shopapp-angular";static \u0275fac=function(t){return new(t||e)};static \u0275cmp=r({type:e,selectors:[["app-root"]],standalone:!0,features:[m],decls:3,vars:0,template:function(t,x){t&1&&(p(0,"div")(1,"h1"),n(2,"ok"),i()())}})};var C=[];var g={providers:[a({eventCoalescing:!0}),u(C),c(),l()]};var R={providers:[d()]},v=f(g,R);var h=()=>s(o,v),G=h;export{G as a};
