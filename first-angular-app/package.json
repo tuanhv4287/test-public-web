@@ -7,6 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "deploy": "ng build && gh-pages -d dist",
     "serve:ssr:first-angular-app": "node dist/first-angular-app/server/server.mjs"
   },
   "private": true,
