@@ -1,12 +1,21 @@
 <!DOCTYPE html><html lang="en" data-critters-container><head>
-  <meta charset="utf-8">
-  <title>FirstAngularApp</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-<link rel="stylesheet" href="styles-5INURTSO.css"><style ng-app-id="ng">body[_ngcontent-ng-c2710544259]{font-family:Arial,sans-serif;background-color:#f0f0f0;margin:0;padding:20px}h1[_ngcontent-ng-c2710544259]{color:#333}.content[_ngcontent-ng-c2710544259]{background-color:#fff;padding:20px;border-radius:8px;box-shadow:0 2px 10px #0000001a}.btn[_ngcontent-ng-c2710544259]{background-color:#4caf50;color:#fff;padding:10px 20px;text-align:center;text-decoration:none;display:inline-block;border-radius:5px;margin-top:20px}.btn[_ngcontent-ng-c2710544259]:hover{background-color:#45a049}</style></head>
-<body><!--nghm-->
-  <app-root _nghost-ng-c2710544259 ng-version="18.2.13" ngh="0" ng-server-context="ssg"><h1 _ngcontent-ng-c2710544259>Chào mừng bạn đến với trang web của tôi!</h1><div _ngcontent-ng-c2710544259 class="content"><p _ngcontent-ng-c2710544259>Đây là một ví dụ đơn giản về HTML và CSS.</p><p _ngcontent-ng-c2710544259>Hãy thử nhấn nút bên dưới để thấy sự thay đổi:</p><a _ngcontent-ng-c2710544259 href="#" class="btn">Nhấn vào đây</a></div></app-root>
-<script src="polyfills-FFHMD2TL.js" type="module"></script><script src="main-CGFJWOL3.js" type="module"></script>
+    <meta charset="utf-8">
+    <title>ShopappAngular</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="styles-5INURTSO.css"><style>
+    body {
+      background: linear-gradient(rgb(14, 17, 36), rgb(36, 26, 73));
+    }
+    /** disable angular mat theme warning */
+    .mat-theme-loaded-marker {
+      display: none;
+    }
+  </style><style ng-app-id="ng">.intro-section[_ngcontent-ng-c820699910]{text-align:center;color:#fff;padding:20px}.search-box[_ngcontent-ng-c820699910]{display:flex;align-items:center;justify-content:center;margin-bottom:20px}.product-category[_ngcontent-ng-c820699910]{width:200px}.search-input[_ngcontent-ng-c820699910]{width:300px;background-color:#13172a;margin-right:10px;border-color:#ffffff80;color:#fff}.form-control[_ngcontent-ng-c820699910]{background-color:#000;color:#fff}.form-control[_ngcontent-ng-c820699910]::placeholder{color:#ffffff80;opacity:1}.form-control[_ngcontent-ng-c820699910]:-ms-input-placeholder{color:#ffffff80}.form-control[_ngcontent-ng-c820699910]::-ms-input-placeholder{color:#ffffff80}.product-item[_ngcontent-ng-c820699910]{background-color:#13172a;border:1px solid rgb(35,39,61);border-radius:20px;padding:20px;margin-bottom:20px}.product-item[_ngcontent-ng-c820699910]   img[_ngcontent-ng-c820699910]:hover{cursor:pointer}.product-image[_ngcontent-ng-c820699910]{width:100%;height:auto;margin-bottom:10px}.product-name[_ngcontent-ng-c820699910]{color:#fff}.product-description[_ngcontent-ng-c820699910]{color:#adb2cb}.product-warranty[_ngcontent-ng-c820699910]{color:#e942b2}.product-price[_ngcontent-ng-c820699910]{color:#fff}.product-rating[_ngcontent-ng-c820699910]{color:gold;margin-top:10px}.product-actions[_ngcontent-ng-c820699910]{display:flex;justify-content:center;margin-top:20px}.space-x[_ngcontent-ng-c820699910]{margin:0 5px}.page-number[_ngcontent-ng-c820699910]{cursor:pointer;padding:5px 10px;border:1px solid #ccc;margin:0 2px;border-radius:3px}.page-number.active[_ngcontent-ng-c820699910]{background-color:#7f44ff;color:#fff;border-color:#7f44ff}.btn-primary[_ngcontent-ng-c820699910]{background-color:#7f44ff;border-color:#7f44ff}.btn.btn-primary[_ngcontent-ng-c820699910]{margin-left:10px}</style><style ng-app-id="ng">.footer-description[_ngcontent-ng-c3063696090]{color:#adbbcb}</style></head>
+  
+  <body><!--nghm-->
+    <app-root _nghost-ng-c3984273398 ng-version="18.2.13" ngh="2" ng-server-context="ssg"><router-outlet _ngcontent-ng-c3984273398></router-outlet><app-home _nghost-ng-c820699910 ngh="1"><div _ngcontent-ng-c820699910 class="container"> this is home <div _ngcontent-ng-c820699910 class="intro-section"><h1 _ngcontent-ng-c820699910>Đây là trang Home</h1><p _ngcontent-ng-c820699910>Trang này hiển thị danh sách các sản phẩm, kèm ảnh</p><p _ngcontent-ng-c820699910>Các bạn có thể chọn xem sản phẩm và mua hàng tại đây</p></div><div _ngcontent-ng-c820699910 class="search-box"><input _ngcontent-ng-c820699910 type="text" placeholder="Tìm sản phẩm" class="form-control search-input ng-untouched ng-pristine ng-valid" value><select _ngcontent-ng-c820699910 class="form-control product-category ng-untouched ng-pristine ng-valid"><option _ngcontent-ng-c820699910 value="0">Tất cả</option><!----></select><button _ngcontent-ng-c820699910 class="btn btn-primary ml-2"> Tìm kiếm </button></div><div _ngcontent-ng-c820699910 class="row"><!----></div></div><div _ngcontent-ng-c820699910 class="d-flex justify-content-center"><nav _ngcontent-ng-c820699910 aria-label="Page navigation"><ul _ngcontent-ng-c820699910 class="pagination"><!----><!----><!----><!----><!----></ul></nav></div><app-footer _ngcontent-ng-c820699910 _nghost-ng-c3063696090 ngh="0"><footer _ngcontent-ng-c3063696090><div _ngcontent-ng-c3063696090 class="footer"><div _ngcontent-ng-c3063696090 class="container"><div _ngcontent-ng-c3063696090 class="row footer-description"><div _ngcontent-ng-c3063696090 class="col-md-6"><p _ngcontent-ng-c3063696090>© 2023 Your company. All rights reserved.</p></div><div _ngcontent-ng-c3063696090 class="col-md-6"><p _ngcontent-ng-c3063696090 class="text-end">Terms of service | Privacy Policy</p></div></div></div></div></footer></app-footer></app-home><!----></app-root>
+  <script src="polyfills-FFHMD2TL.js" type="module"></script><script src="main-PEBKJ37P.js" type="module"></script>
 
-<script id="ng-state" type="application/json">{"__nghData__":[{}]}</script></body></html>
+<script id="ng-state" type="application/json">{"__nghData__":[{},{"t":{"14":"t0","18":"t1","22":"t2","23":"t3","24":"t4","25":"t5","26":"t6"},"c":{"14":[],"18":[],"22":[],"23":[],"24":[],"25":[],"26":[]}},{"c":{"0":[{"i":"c820699910","r":1}]}}]}</script></body></html>
